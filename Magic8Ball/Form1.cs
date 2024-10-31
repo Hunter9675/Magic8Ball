@@ -32,31 +32,31 @@ namespace Magic8Ball
 
             }
 
-            if  (randomNumber == 2)
+            else if (randomNumber == 2)
             {
                 eightBallOutput.Text = "No.";
 
             }
 
-            if (randomNumber == 3)
+            else if (randomNumber == 3)
             {
                 eightBallOutput.Text = "Maybe.";
 
             }
 
-            if (randomNumber == 4)
+            else if (randomNumber == 4)
             {
                 eightBallOutput.Text = "Probably.";
 
             }
 
-            if (randomNumber == 5)
+            else if (randomNumber == 5)
             {
                 eightBallOutput.Text = "Probably not.";
 
             }
 
-            if (randomNumber == 6)
+            else if (randomNumber == 6)
             {
                 eightBallOutput.Text = "I don't know.";
 
